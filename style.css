@@ -1,0 +1,427 @@
+body{
+
+	height:100%;
+}
+.poen_ao{
+	background-color:blue;
+	box-shadow: 2px 2px 2px 1px lightblue;
+	border:1px solid blue;
+	color:white;
+	display:block;
+	padding:1%;
+	margin-bottom:1.5%;
+	width:70%;
+	margin-left:17%;
+	border-radius:7px;
+	font-family:Times New Roman;
+	font-weight: bold;
+		margin-bottom:5%;
+ 
+}
+.poen_ao:hover{
+
+	background-color:dodgerblue;
+	color:white;
+	display:block;
+	padding:1%;
+	margin-bottom:1.5%;
+	width:71%;
+	margin-left:17%;
+	border-radius:7px;
+	font-family:Times New Roman;
+	font-weight: bolder;
+		margin-bottom:5%;
+
+}
+
+
+.score_ao{
+	border:1px solid blue;
+	box-shadow: 2px 2px 2px 1px lightblue;
+	margin:1%;
+	padding-left:1%;
+	text-align:center;
+	border-radius:7px;
+
+	padding:2%;
+}
+#h1_ao{
+	color:blue;
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-size:26px;
+	text-align:center;
+}
+
+.wkf_plat{
+	/*margin:2%;
+	padding:5%;*/
+	background-color:black;
+	color:white;
+	border-radius:8px;
+	height:100%;
+	width:90%;
+	padding:5%;
+	margin:5%;
+ 
+
+
+	
+}
+
+/*Checkbox*/
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0px; 
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+
+
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left:7px;
+  
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+ 
+ 
+
+/*Aka*/
+
+.poen_aka{
+	background-color:red;
+	box-shadow: 0px 2px 2px 1px #ff3333;
+	color:white;
+	display:block;
+	padding:1%;
+	margin-bottom:5%;
+	width:70%;
+	margin-left:17%;
+	border-radius:7px;
+	font-family:Times New Roman;
+	font-weight: bold;
+	border:1px solid red;
+
+ 
+}
+
+.poen_aka:hover{
+
+	 background-color:darkred;
+	 
+	color:white;
+	display:block;
+	padding:1%;
+	margin-bottom:5%;
+	width:71%;
+	margin-left:17%;
+	border-radius:7px;
+	font-family:Times New Roman;
+	font-weight: bold;
+	 
+
+}
+
+
+.score_aka{
+	border:1px solid red;
+	box-shadow: 1px 2px 2px 2px #ff6666;
+	margin:1%;
+	padding-left:1%;
+	text-align:center;
+	border-radius:7px;
+	padding:2%;
+}
+#h1_aka{
+	color:red;
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-size:26px;
+	text-align:center;
+}
+
+.result{
+
+	border:1px solid black;
+	height:100%;
+	width:100%;
+	text-align:center;
+	border-radius:7px;
+
+}
+#time{
+	font-size:20px;
+	color:black;
+	font-family: arial;
+	font-weight: bold;
+	text-align:center;
+}
+ #aka_aopoen {
+ 	padding:2%;
+ 	font-size:40px;
+ 	font-family:arial;
+ 	font-weight:bolder;
+ 	 
+ }
+
+ #name1
+ {
+ 	position:absolute;
+ 	left:10px;
+ 	top:20px;
+ 	background-color:blue; 
+ 	 box-shadow: 2px 2px 2px 1px lightblue;
+ 	width:20%; 
+ 	height:10%;
+ 	color:#ffffff;
+ 	font-size:16px;
+ 	line-height:17px;
+ 	border-radius:5px;
+ }
+#score1{
+
+	position:absolute;
+	left:10px;
+	top:50px;
+	background-color:blue;
+	box-shadow: 2px 2px 2px 1px lightblue;
+	 width:20%; 
+	 height:60%;
+	 color:#ffffff;
+	 font-size:400%;
+	 line-height:100px;
+	 border-radius:5px;
+}
+
+ #name2
+ {
+ 	position:absolute;
+ 	left:13px;
+ 	top:20px;
+ 	background-color:red; 
+ 	box-shadow: 2px 2px 2px 1px #ff3333;
+ 	width:20%; 
+ 	height:10%;
+ 	color:#ffffff;
+ 	font-size:16px;
+ 	line-height:17px;
+ 	margin-left:70%;
+ 	border-radius:5px;
+ }
+#score2{
+
+	position:absolute;
+	left:13px;
+	top: 50px;
+	background-color:red;
+	box-shadow: 2px 2px 2px 1px #ff3333;
+	 width:20%; 
+	 height:60%;
+	 color:#ffffff;
+	 font-size:400%;
+	 line-height:100px;
+	 margin-left:70%;
+	 border-radius:5px;
+}
+
+#clock{
+	color:White;
+	margin-left:3%;
+
+}
+
+.timer {
+    border:1px solid white;
+    box-shadow: 1px 1px 1px 1px lightgreen;
+    width:50%;
+    height:50px;
+    line-height:30px;
+    font-size:40px;
+    font-family:"Courier New", Courier, monospace;
+    margin-left:23%;
+    margin-bottom:5%;
+
+    padding-top:3%;
+}
+
+.minute, .second {
+	color:white;
+	font-size:36px;
+	font-family:Arial;
+	 
+
+}
+
+.button-timmer{
+
+	padding:1%;
+	background-color:#aaa;
+	color:black;
+	border-radius:5px;
+	width:60%;
+	display:block;
+	 
+	margin:2%;
+
+
+}
+
+.control{
+	margin-left:23.5%;
+}
+ 
+
+ .punishments-aka{
+
+  
+	width:90%;
+ 	text-align:center;
+ 	font-size:18px;
+ 	font-family:Times New Roman;
+ 	font-weight: bold;
+ 	margin-top:5%;
+ 	padding:5%;
+ 	margin-left:8%;
+ }
+
+ .punishments-ao{
+ 
+		width:90%;
+ 	text-align:center;
+ 	font-size:18px;
+ 	font-family:Times New Roman;
+ 	font-weight: bold;
+ 	margin-top:5%;
+ 	padding:5%;
+ 	float:left;
+ }
+ .punish-type1{
+ 	padding:2%;
+ 	border:1px solid white;
+ 	margin-bottom:2%;
+ }
+ .punish-type2{
+ 	padding:2%;
+ 	border:1px solid white;
+ }
+
+ .punishments-aka{
+	width:90%;
+ 	text-align:center;
+ 	font-size:18px;
+ 	font-family:Times New Roman;
+ 	font-weight: bold;
+ 	margin-top:5%;
+ 	padding:5%;
+ 	float:right;
+ 	margin-right:8%;
+
+ }
+ #red{
+ 	background-color:red;
+ 	border:1px solid red;
+ 	box-shadow: 1px 1px 1px 1px #ff3333;
+ 	color:white;
+ 	font-family:Times New Roman;
+ 	font-weight: bold;
+ }
+
+ #red:hover{
+	background-color:#ff3333;
+ 	border:1px solid red;
+ 	box-shadow: 1px 1px 1px 1px #ff3333;
+ 	color:white;
+ 	font-family:Times New Roman;
+ 	font-weight: bolder;
+
+ }
+
+
+  #green{
+ 	background-color: #00b300;
+ 	border:1px solid  #00b300;
+ 	box-shadow: 1px 1px 1px 1px lightgreen;
+ 	color:white;
+ 	font-family:Times New Roman;
+ 	font-weight: bold;
+ }
+  
+   #green:hover{
+
+background-color: #32CD32;
+ 	border:1px solid  #00b300;
+ 	box-shadow: 1px 1px 1px 1px lightgreen;
+ 	color:white;
+ 	font-family:Times New Roman;
+ 	font-weight: bolder;
+ }
+ #silver{
+ 		background-color:#afafaf;
+ 	color:white;
+ 	font-family:Times New Roman;
+ 	font-weight: bold;
+ }
+ #silver:hover{
+ 	background-color:#aaaaaa;
+ 	color:white;
+ 	font-weight: bolder;
+ }
